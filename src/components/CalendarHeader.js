@@ -2,7 +2,7 @@ import dayjs from "dayjs";
 import React, { useContext } from "react";
 import logo from "../assets/logo.png";
 import GlobalContext from "../context/GlobalContext";
-export default function CalendarHeader() {
+const CalendarHeader = () => {
   const { monthIndex, setMonthIndex } = useContext(GlobalContext);
   function handlePrevMonth() {
     setMonthIndex(monthIndex - 1);
@@ -47,3 +47,5 @@ export default function CalendarHeader() {
     </header>
   );
 }
+
+export deafult Day;
