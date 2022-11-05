@@ -10,7 +10,7 @@ let labelsClasses = [
   "purple",
 ];
 
-export default function EventModal() {
+const EventModal = () => {
 
   
   const {
@@ -142,3 +142,5 @@ export default function EventModal() {
     </div>
   );
 }
+
+export deafult EventModal;
