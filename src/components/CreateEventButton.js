@@ -1,7 +1,7 @@
 import React, { useContext } from "react";
 import PlusIcon from "../assets/PlusIcon.png";
 import GlobalContext from "../context/GlobalContext";
-export default function CreateEventButton() {
+const CreateEventButton = () => {
   const { setShowEventModal } = useContext(GlobalContext);
   return (
     <button
@@ -13,3 +13,5 @@ export default function CreateEventButton() {
     </button>
   );
 }
+
+export default CreateEventButton;
