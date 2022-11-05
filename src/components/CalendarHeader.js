@@ -48,4 +48,4 @@ const CalendarHeader = () => {
   );
 }
 
-export deafult Day;
+export deafult CalendarHeader;
