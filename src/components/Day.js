@@ -2,7 +2,7 @@ import dayjs from "dayjs";
 import React, { useContext, useState, useEffect } from "react";
 import GlobalContext from "../context/GlobalContext";
 
-export default function Day({ day, rowIdx }) {
+const Day = ({ day, rowIdx }) => {
   const [dayEvents, setDayEvents] = useState([]);
   const {
     setDaySelected,
@@ -58,3 +58,5 @@ export default function Day({ day, rowIdx }) {
     </div>
   );
 }
+
+export deafult Day;
