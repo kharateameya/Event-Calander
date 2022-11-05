@@ -9,7 +9,7 @@ import GlobalContext from './context/GlobalContext';
 import EventModal from './components/EventModal';
 
 
-function App() {
+const App = () => {
 
   const [currentMonth, setCurrentMonth] = useState(getMonth());
   const { monthIndex, showEventModal } = useContext(GlobalContext)
