@@ -1,7 +1,7 @@
 import React, { useContext } from "react";
 import GlobalContext from "../context/GlobalContext";
 
-export default function Labels() {
+const Labels = () => {
   const { labels, updateLabel } = useContext(GlobalContext);
   return (
     <React.Fragment>
@@ -22,3 +22,5 @@ export default function Labels() {
     </React.Fragment>
   );
 }
+
+export deafult Labels;
